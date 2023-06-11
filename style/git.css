@@ -1,0 +1,9 @@
+body{
+    background-image:linear-gradient(30deg, rgba(201, 211, 10, 0.338), rgba(7, 39, 76, 0.9));
+}
+.card{
+    border-radius: 0;
+    background-color: black;
+    color: antiquewhite;
+    border: 0;
+}
