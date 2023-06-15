@@ -1,14 +1,19 @@
 #land {
-    background-image:linear-gradient(30deg, rgba(201, 211, 10, 0.338), rgba(7, 39, 76, 0.9)), url('../4.jpg');
+    background-image:linear-gradient(30deg, rgba(229, 14, 50, 0.3), rgba(7, 39, 76, 0.954)), url('../util/4.jpg');
     background-size:100%;
-    padding-bottom: 22.15ch;
+    padding-bottom: 0;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-  
+
+nav{
+    transition: background-color 0.3s ease-in-out;
+}
+
 #heading {
     padding-top: 200px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight:1;
+    font-family: -apple-system;
 
 }
 
@@ -19,4 +24,36 @@
 #foot{
     background-color: rgba(234, 227, 227, 0.954);
     color: gray;
+}
+#about1{
+    background-image: linear-gradient(15deg, rgba(172, 175, 229, 0.776), rgba(242, 243, 244, 0.9));
+    color: rgb(41, 41, 41);
+}
+
+#about2{
+    background-color: rgba(16, 15, 15, 0.508);
+    color: antiquewhite;
+}
+
+
+.list-group-item{
+    --bs-list-group-bg:  rgba(99, 103, 111, 0.37);
+    --bs-list-group-color:  antiquewhite;
+    --bs-list-group-border-width:1px;
+    
+}
+.list-group{
+    --bs-list-group-border-width:0px;
+}
+
+footer{
+    background-color: rgb(74, 75, 74);
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    #land {
+      background-image:linear-gradient(30deg, rgba(229, 14, 50, 0.3), rgba(7, 39, 76, 0.954)), url('../5.jpg');
+      /* background-size:100; */
+    }
 }
