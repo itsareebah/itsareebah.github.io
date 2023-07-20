@@ -1,16 +1,20 @@
 body{
-    background-image:linear-gradient(180deg, rgba(229, 14, 50, 0.2), rgba(7, 39, 76, 0.99));
+    /* background-image:linear-gradient(180deg, rgba(183, 116, 127, 0.1), rgba(0, 0, 0, 0.5    58)  ); */
+    /* background-color: rgba(128, 128, 128, 0.573); */
 }
 
 
 nav{
-    transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.1s ease-in-out;
 }
 .card{
     border-radius: 0;
-    background-color: black;
-    color: rgb(255, 255, 255);
+    background-color: #F2c4ce;
+    background-image:linear-gradient(90deg, #361f24 75%, #4b282f);
+    color: rgb(251, 251, 251);
     border: 0;
+    font-weight: 100ch  ;
+
 }
 
 .logo {

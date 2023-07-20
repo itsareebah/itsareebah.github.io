@@ -1,18 +1,22 @@
 body{
-    background-image:linear-gradient(140deg, rgba(229, 14, 50, 0.2), rgba(7, 39, 76, 0.99));
+    /* background-image:linear-gradient(60deg, rgba(99, 19, 117, 0.753), rgba(33, 6, 107, 0.822)); */
+    background-image:linear-gradient(30deg, rgba(229, 14, 50, 0.3), rgba(7, 39, 76, 0.954)), url('../util/4.jpg');
+    color: #fff;
 }
 
 
 nav{
     transition: background-color 0.2s ease-in-out;
 }
-.card{
-    border-radius: 0;
-    background-color: black;
-    color: antiquewhite;
-    border: 0;
-}
 
+.c{
+    background-color: rgba(8, 0, 0, 0.42);
+    font-style: italic;
+}
 .logo {
     transform: scale(0.4);
   }
+
+a{
+    color: #fff;
+}
